@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="leaflet/leaflet.css">
+    <script src="https://kit.fontawesome.com/9eb3bb6c40.js" crossorigin="anonymous"></script>
+    <title>Band website</title>
+</head>
+<body>
+    <header class="p-2">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-xl-5 col-6 text-left mx-0 px-0">
+                    <a class=" d-lg-inline d-none text-decoration-none text-uppercase text-light font-weight-bold mr-4" id="nav-link" href="#hero">home</a>
+                    <a class=" d-lg-inline d-none text-decoration-none text-uppercase text-light font-weight-bold mr-4" id="nav-link" href="#about-section">band</a>
+                    <a class=" d-lg-inline d-none text-decoration-none text-uppercase text-light font-weight-bold mr-4" id="nav-link" href="#tour-dates-section">tour</a>
+                    <a class=" d-lg-inline d-none text-decoration-none text-uppercase text-light font-weight-bold mr-4" id="nav-link" href="#contact-section">contact</a>
+                    <a class=" d-lg-inline d-none text-decoration-none text-uppercase text-light font-weight-bold mr-4" id="nav-link" href="#">more
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <div class="text-light d-lg-none ml-4">
+                        <i class="fas fa-bars fa-lg" id="hamburger-icon"></i>
+                    </div>
+                </div>
+                <div class="col-1 align-self-end text-center px-0 mr-4">
+                    <i class="fas fa-search" style="color: white;" id="glass"></i>
+                </div>
+            </div>
+        </div>
+    </header> <!----HEADER SECTION-->
+   
+    <section class="hero-section" id="hero">
+        <div class="container-fluid px-0 mx-0">
+            <div class="row vh-100 align-items-end mx-0 px-0">
+                <div class="col-12 text-center">
+                    <h4 class="text-light">NEW YORK</h4>
+                    <p class="text-light">The atmosphere in New York is lorem ipsum.</p>
+                </div>
+            </div>
+        </div>
+    </section> <!----HERO SECTION-->
+   
+    <section id="about-section" class="py-5">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                  <div class="col-10 text-center">
+                      <h2 class="mb-3">THE BAND</h3>
+                      <i class="text-muted">We love music.</i>
+                       <p class="my-3" id="about-paragraph">We have created a fictional band website. Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                          mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                       </p>
+                  </div>
+            </div>
+            <div class="row justify-content-around my-5">
+                <div class="col-2 text-center ml-5">
+                    <p>Name</p>
+                    <img class="img-fluid" src="https://www.w3schools.com/w3images/bandmember.jpg" alt="this is a band member photo">
+                </div>
+                <div class="col-2 text-center">
+                    <p>Name</p>
+                    <img class="img-fluid" src="https://www.w3schools.com/w3images/bandmember.jpg" alt="this is a band member photo">
+                </div>
+                <div class="col-2 text-center mr-5">
+                    <p>Name</p>
+                    <img class="img-fluid" src="https://www.w3schools.com/w3images/bandmember.jpg" alt="this is a band member photo">
+                </div>
+            </div>
+        </div>
+    </section> <!---ABOUT SECTION-->
+
+    <section id="tour-dates-section" class="py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-10 text-light">
+                            <h2 class="mb-3">TOUR DATES</h3>
+                            <i class="text-muted">Remember to book your tickets!</i>
+                            <table class="table text-muted text-left table-bordered table-light table-responsive my-5">
+                                <tr>
+                                    <td>September</td>
+                                    <td class="font-weight-bold text-light" id="sold-out">Sold out</td>
+                                </tr>
+                                <tr>
+                                    <td>October</td>
+                                    <td class="font-weight-bold text-light" id="sold-out">Sold out</td>
+                                </tr>
+                                <tr>
+                                    <td>November</td>
+                                    <td class="text-center font-weight-bold">3</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-12 px-0 mx-0">
+                            <div class="row justify-content-center">
+                                <div class="col-3 px-0 mx-0 text-left" id="tour-cities-information">
+                                    <img class="img-fluid" id="city-photo" src="https://www.w3schools.com/w3images/newyork.jpg" alt="this is a city photo">
+                                    <p class="font-weight-bold m-3">New York</p>
+                                    <p class="text-muted m-3">Fri 27 Nov 2016</p>
+                                    <p class="m-3">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class=" btn btn-dark m-3" id="tickets-button">Buy Tickets</button>
+                                </div>
+                                <div class="col-3 px-0 mx-4 text-left" id="tour-cities-information">
+                                    <img class="img-fluid" id="city-photo" src="https://www.w3schools.com/w3images/paris.jpg" alt="this is a city photo">
+                                    <p class="font-weight-bold m-3">Paris</p>
+                                    <p class="text-muted m-3">Fri 27 Nov 2016</p>
+                                    <p class="m-3">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="btn btn-dark m-3" id="tickets-button">Buy Tickets</button>
+                                </div>
+                                <div class="col-3 px-0 mx-0 text-left" id="tour-cities-information">
+                                    <img class="img-fluid" id="city-photo" src="https://www.w3schools.com/w3images/sanfran.jpg" alt="this is a city photo">
+                                    <p class="font-weight-bold m-3">San Francisco</p>
+                                    <p class="text-muted m-3">Fri 27 Nov 2016</p>
+                                    <p class="m-3">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="btn btn-dark m-3" id="tickets-button">Buy Tickets</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!---TOUR DATES SECTION-->
+
+    <section id="contact-section" class="py-5">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-10 text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <h2 class="mb-3">CONTACT US</h3>
+                            <i class="text-muted">Fan? Drop a note!</i>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between py-4">
+                        <div class="col-3 text-left align-self-start">
+                            <p><i class="fas fa-map-marker-alt"></i> Chicago, US</p>
+                            <p><i class="fas fa-phone-alt"></i> Phone: +00 151515</p>
+                            <p><i class="fas fa-envelope"></i> Email: mail@mail.com</p>
+                        </div>
+                        <div class="col-7 text-right px-0 mx-0">
+                                <form class=" form-control-lg form-inline px-0 mx-0 justify-content-end">
+                                    <input class="mr-3" type="text" placeholder=" Name">
+                                    <input type="text" placeholder=" Email">
+                                </form>
+                                <form class="form-control-lg px-0 mx-0">
+                                    <input type="text" placeholder=" Message">
+                                </form>
+                                <form class="form-control-lg px-0 mx-0">
+                                    <input class=" btn btn-dark" type="submit" value="SUBMIT" id="submit-button">
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section> <!---CONTACT SECTION-->
+
+    <section id="map-section">
+        <div class="container-fluid" id="map-photo"></div>
+    </section> <!---MAP SECTION-->
+
+    <footer class="py-5">
+        <div class="container-fluid py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-6 text-muted text-center">
+                    <i class="fab fa-facebook-square fa-2x" id="social-media-icons"></i>
+                    <i class="fab fa-instagram fa-2x" id="social-media-icons"></i>
+                    <i class="fab fa-twitter fa-2x" id="social-media-icons"></i>
+                </div>
+            </div>
+        </div>
+    </footer> <!---FOOTER SECTION-->
+
+
+    <script src="js/leaflet.js"></script>
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <script>
+
+        /**********************SLIDESHOW CODE*************************************/
+
+        let slideshowHero = $(".hero-section");
+        function slideshow () {
+            slideshowHero.toggleClass("hero-section-2");  
+        }
+        setInterval(slideshow, 4000);
+
+        /**********************MAP CODE******************************************/
+
+        var myMap = L.map("map-section");
+        myMap.setView([37.974, 23.72], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        { attribution:
+        '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(myMap);
+        var marker = L.marker([37.974, 23.72]).addTo(myMap);
+        
+        marker.bindPopup("<b>We are here</b>").openPopup();
+
+    </script>
+
+</body>
+</html>

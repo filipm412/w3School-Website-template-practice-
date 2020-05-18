@@ -1,0 +1,133 @@
+/******************************************HEADER SECTION***********************************************************/
+
+
+
+header {
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: black;
+}
+
+#glass:hover {
+
+    color: gray;
+    cursor: pointer;
+}
+
+#hamburger-icon:hover {
+
+    filter: brightness(1.5);
+}
+
+
+
+
+
+
+
+/*****************************************HERO SECTION*************************************************************/
+
+
+
+.hero-section {
+
+    background-image: url(../img/hero-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.hero-section-2 {
+
+    background-image: url(../img/hero-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+/*****************************************ABOUT SECTION******************************************************************/
+
+
+
+#about-paragraph {
+    text-align: justify;
+}
+
+
+
+
+/****************************************TOUR DATES SECTION**************************************************************/
+
+#tour-dates-section {
+
+    background-color: black;
+
+}
+
+#sold-out {
+
+    background-color: #f44336;
+}
+
+#tour-cities-information {
+
+    background-color: white;
+
+}
+
+#city-photo:hover {
+
+    filter: brightness(0.5);
+
+}
+
+#tickets-button {
+
+    border-radius: 0%;
+}
+
+
+/****************************************CONTACT SECTION******************************************************************/
+
+
+input[placeholder=" Message"] {
+
+    width: 84%;
+
+}
+
+#submit-button {
+
+    border-radius: 0%;
+
+}
+
+
+
+/****************************************MAP SECTION************************************************************************/
+
+
+
+#map-photo {
+
+    height: 50vh;
+
+}  
+
+
+
+/***************************************FOOTER SECTION************************************************************************/
+
+#social-media-icons:hover {
+
+    cursor: pointer;
+    filter: brightness(1.5);
+
+}
